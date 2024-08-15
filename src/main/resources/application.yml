@@ -8,9 +8,13 @@ spring:
           uri: lb://USER-MS
           predicates:
             - Path=/api/users/**
+        - id: NOTIFICATIONS-MS
+          uri: lb://NOTIFICATIONS-MS
+          predicates:
+            - Path=/api/email/**
 
 server:
-    port: 8084
+    port: 8085
 
 eureka:
   instance:
