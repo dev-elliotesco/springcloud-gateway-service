@@ -49,7 +49,7 @@ mvn spring-boot:run
 ```bash
 # O ejecutando el JAR directamente
 # Nota: Asegúrate de haber compilado y generado el JAR antes de ejecutar este comando
-java -jar target/gateway-service-0.0.1-SNAPSHOT.jar
+java -jar target/gateway-0.0.1-SNAPSHOT.jar
 ```
 Para generar el JAR:
 
