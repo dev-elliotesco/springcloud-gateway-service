@@ -12,6 +12,10 @@ spring:
           uri: lb://NOTIFICATIONS-MS
           predicates:
             - Path=/api/email/**
+        - id: PRODUCT-MS
+          uri: lb://PRODUCT-MS
+          predicates:
+            - Path=/api/products/**
 
 server:
     port: 8085
